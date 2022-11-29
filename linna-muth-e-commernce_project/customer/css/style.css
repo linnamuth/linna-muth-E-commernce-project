@@ -1,0 +1,171 @@
+.image, .logo{
+    width:25%;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    margin-left: 20%;
+    gap: 70px;
+    cursor: pointer;
+    margin-top: 20px;  
+    
+}
+.head{
+    display: flex;
+    background-color: palevioletred;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(246, 230, 211); */
+}
+select{
+    padding: 30px;
+}
+input[type="search"]{
+    margin-top: 30px;
+    padding: 10px;
+    width: 60vh;
+    border: none;
+}
+.img{
+    width: 70%;
+    padding: 20px;
+
+}
+.img1{
+    width: 70%;
+    padding: 50px;
+}
+.img2{
+    width: 70%;
+    padding: 23px;
+}
+.img3{
+    width: 70%;
+    padding: 40px;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.ptoto{
+    /* background-color: rgb(245, 248, 247); */
+    padding: 20px;
+    width: 40%;
+
+}
+.pto{
+    width: 30%;
+    padding: 20px;
+}
+button{
+    padding: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+.nav{
+    width: 85%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.nav1{
+    width: 80%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 35px; 
+}
+.nav2{
+    width: 80%;
+    /* border: solid bisque; */
+    padding: 30px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px; 
+}
+.nav3{
+    width: 70%;
+    /* border: solid bisque; */
+    padding: 55px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+}
+#img{
+    width: 110%;
+    padding: 10px;
+    /* background-color: blanchedalmond; */
+}
+.nav-l{
+    width: 70%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 40px; 
+}
+.nav-li{
+    width: 45%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 25%;
+}
+.nav-light{
+    width: 60%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 15%;
+}
+.nav-img{
+    width: 60%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+    padding: 10%;
+}
+.nav-g{
+    display: flex;
+}
+footer{
+    display: flex;
+    gap: 50px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.contect{
+    justify-content: center;
+    text-align: center;
+}
+.foo{
+    background-color: beige;
+}
