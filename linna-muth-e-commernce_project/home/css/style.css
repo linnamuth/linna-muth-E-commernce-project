@@ -29,7 +29,7 @@ form{
     border-radius: 40px;
     
 }
-input[type="text"],input[type="email"],input[type="password"]{
+input[type="text"],input[type="email"],input[type="password"],input[type="number"]{
     width: 90%;
     margin-top: 10px;
     background-color: antiquewhite;
@@ -38,6 +38,10 @@ input[type="text"],input[type="email"],input[type="password"]{
     display: flex;
     margin-bottom: 10px;
     
+}
+input[type="picture"]{
+    width: 330%;
+    padding: 30px;
 }
 button{
     background-color: aquamarine;
@@ -52,4 +56,8 @@ button{
 }
 :hover.seller{
     color: blue;
+}
+.nav,img{
+    padding: 10px;
+    width: 10px;
 }

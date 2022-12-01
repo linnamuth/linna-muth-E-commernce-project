@@ -13,118 +13,46 @@
 .head{
     display: flex;
     background-color: palevioletred;
+    padding: 20px;
 }
 body{
     font-family: sans-serif;
     /* background-color: rgb(246, 230, 211); */
 }
 select{
-    padding: 30px;
+    padding: 20px;
 }
 input[type="search"]{
-    margin-top: 30px;
+    /* margin-top: 9px; */
     padding: 10px;
-    width: 60vh;
+    width: 70vh;
     border: none;
+    
 }
-.img{
-    width: 70%;
-    padding: 20px;
 
-}
-.img1{
-    width: 70%;
-    padding: 50px;
-}
-.img2{
-    width: 70%;
-    padding: 23px;
-}
-.img3{
-    width: 70%;
-    padding: 40px;
-}
+
 .center{
     justify-content: center;
     text-align: center;
 }
-.ptoto{
-    /* background-color: rgb(245, 248, 247); */
+/* .ptoto{
+    background-color: rgb(245, 248, 247); 
     padding: 20px;
-    width: 40%;
+    width: 60%; 
 
-}
-.pto{
-    width: 30%;
-    padding: 20px;
-}
+}  */
+
 button{
     padding: 5px;
-    width: 50%;
+    width: 15%;
     cursor: pointer;
 }
 .nav{
-    width: 85%;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-    padding: 10px;
-
-}
-.nav1{
-    width: 80%;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-    padding: 35px; 
-}
-.nav2{
-    width: 80%;
-    /* border: solid bisque; */
-    padding: 30px;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px; 
-}
-.nav3{
-    width: 70%;
-    /* border: solid bisque; */
-    padding: 55px;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-}
-
-.top{
-    display: flex;
-}
-#img{
-    width: 110%;
-    padding: 10px;
-    /* background-color: blanchedalmond; */
-}
-.nav-l{
-    width: 70%;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-    padding: 40px; 
-}
-.nav-li{
-    width: 45%;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-    padding: 25%;
-}
-.nav-light{
     width: 60%;
     background-color: rgb(252, 249, 249);
     border-radius: 20px;
-    padding: 15%;
-}
-.nav-img{
-    width: 60%;
-    background-color: rgb(252, 249, 249);
-    border-radius: 20px;
-    padding: 10%;
-}
-.nav-g{
-    display: flex;
+    padding: 20px;
+
 }
 footer{
     display: flex;
@@ -166,6 +94,43 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+.search{
+    display: flex;
+}
+.contain{
+    display: flex;
+}
+img{
+    width: 100%;
+    height: 40vh;
+}
+form{
+    display: flex;
+    gap: 100px;
+    cursor: pointer;
+}
+#selet{
+    padding: 5px;
+    width: 20%;
+}
+.search{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.home{
+    display: flex;
+    gap: 110px;
+    
+}
 .foo{
-    background-color: beige;
+    background-color: rgb(194, 202, 199);
+    margin-top: 10%;
+}
+button{
+    width: 20%;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
